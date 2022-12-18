@@ -1,5 +1,7 @@
 export class Character {
-  constructor () {
-
+  constructor (position, stamina, temperament) {
+    this.position = position;
+    this.stamina =  stamina
+    this.temperament = temperament;
   }
-}
+ }
